@@ -1,0 +1,21 @@
+# Custom 404 handler
+ErrorDocument 404 /lbnsv1/404.php
+
+RewriteEngine On
+
+# Product details rewrite
+RewriteRule ^product/([^/]+)$ product-details.php?id=$1 [L,QSA]
+
+# Skip existing files and folders
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Handle root index page specifically
+RewriteRule ^index$ /lbnsv1/index.php [L]
+
+# Check if PHP file exists before rewriting (for other pages)
+RewriteCond %{DOCUMENT_ROOT}/lbnsv1/$1.php -f
+RewriteRule ^([a-zA-Z0-9_-]+)$ /lbnsv1/$1.php [L]
+
+# Prevent directory listing
+Options -Indexes

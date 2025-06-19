@@ -1,0 +1,163 @@
+    /* ✅ Google Font */
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    
+    .swal2-popup {
+        margin-top: 0 !important;
+    }
+    /* ✅ Background Styling */
+    body {
+        margin: 0;
+        padding: 0;
+        background: #9b0606;
+        font-family: 'Poppins', sans-serif;
+        height: 100vh;
+        overflow: hidden;
+    }
+    
+    .wrapper {
+        position: fixed; /* ✅ Keep centered regardless of new elements (like Swal) */
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1;
+    }
+    /* ✅ Container */
+    .container {
+        position: relative;
+        width: 380px;
+        background: white;
+        border-radius: 8px;
+        padding: 30px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        transition: all 0.5s ease-in-out; 
+        z-index: 1;
+    }
+    
+    /* ✅ Hide Register & Forgot Password by Default */
+    .register-box,
+    .forgot-box {
+        display: none;
+    }
+    
+    /* ✅ Heading */
+    h2 {
+        font-size: 22px;
+        color: #2a3b5a;
+        margin-bottom: 20px;
+    }
+    
+    /* ✅ Input Box */
+    .input-box {
+        position: relative;
+        margin-bottom: 20px;
+    }
+    
+    .input-box input {
+        width: 100%;
+        padding: 12px;
+        background: transparent;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+        outline: none;
+        transition: 0.3s;
+    }
+    
+    /* ✅ Floating Label */
+    .input-box label {
+        position: absolute;
+        top: 14px;
+        left: 12px;
+        color: #888;
+        font-size: 16px;
+        transition: 0.3s ease-in-out;
+        pointer-events: none;
+    }
+    
+    /* ✅ Move Label on Input Focus */
+    .input-box input:focus + label,
+    .input-box input:valid + label {
+        top: -5px;
+        font-size: 12px;
+        color: #1e90ff;
+    }
+    
+    /* ✅ Eye Icon for Password */
+    .toggle-password {
+        position: absolute;
+        right: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        cursor: pointer;
+        font-size: 18px;
+        color: #666;
+        transition: 0.3s;
+    }
+    
+    .toggle-password:hover {
+        color: #1e90ff;
+    }
+    
+    /* ✅ Buttons */
+    .btn {
+        width: 100%;
+        background: linear-gradient(135deg, #198754, #198754);
+        color: white;
+        border: none;
+        padding: 12px;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .btn:hover {
+        background: linear-gradient(135deg, #294a88, #1c3b6d);
+        transform: scale(1.02);
+    }
+    
+    /* ✅ Forgot Password & Register Links */
+    .login-options {
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
+    .login-options a {
+        color: #1e90ff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .login-options a:hover {
+        text-decoration: underline;
+    }
+    
+    .register-link {
+        margin-top: 15px;
+        font-size: 14px;
+        color: #555;
+    }
+    
+    .register-link a {
+        color: #1e90ff;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    
+    .register-link a:hover {
+        text-decoration: underline;
+    }
+    

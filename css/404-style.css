@@ -1,0 +1,46 @@
+        body {
+            background-color: #fff5ec;
+            font-family: 'Readex Pro', sans-serif;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            padding: 30px;
+        }
+
+        .error-container {
+            max-width: 600px;
+        }
+
+        .error-logo {
+            max-width: 160px;
+            margin-bottom: 20px;
+        }
+
+        .error-title {
+            font-size: 3rem;
+            color: #c1121f;
+            font-weight: 700;
+        }
+
+        .error-quote {
+            font-size: 1.2rem;
+            color: #555;
+            margin: 20px 0;
+        }
+
+        .back-btn {
+            background-color: #28a745;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 30px;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: 0.3s;
+            display: inline-block;
+        }
+
+        .back-btn:hover {
+            background-color: #218838;
+        }
