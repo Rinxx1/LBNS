@@ -194,184 +194,284 @@
     </div>
 </section>
 
+<!-- Visit Our Stores Section -->
+<section class="stores-section section-connector">
+    <div class="connector-circle connector-circle-1"></div>
+    <div class="connector-circle connector-circle-2"></div>
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Left Side: Large Image -->
+            <div class="col-lg-6 position-relative">
+                <div class="stores-image-container">
+                    <img src="Images/Storesection.jpg" alt="Customers buying durian treats at Lola Abon's" class="stores-image">
+                    <div class="stores-stats">
+                        <div class="stat-item">
+                            <h3>3</h3>
+                            <p>Store Locations</p>
+                        </div>
+                        <div class="stat-item">
+                            <h3>70+</h3>
+                            <p>Years Serving</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-
-<!-- Featured Products Section -->
-<section class="featured-products py-5">
-  <div class="container">
-    <h2 class="display-5 fw-bold" style="color: #111;">Featured Products</h2>
-    <p class="section-subtitle">
-      Celebrate every moment with our bestselling durian favorites, crafted to delight every taste.
-    </p>
-    <div class="row g-4 justify-content-center">
-
-      <!-- Product Card 1 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <div class="product-image-wrapper">
-            <img src="Images/hero1.jpg" alt="Durian Yema" class="product-image">
-            <span class="product-badge">Durian Yema</span>
-          </div>
-          <div class="product-info">
-            <p>Soft, chewy durian candy with a rich tropical flavor everyone loves.</p>
-          </div>
+            <!-- Right Side: Store Information -->
+            <div class="col-lg-6">
+                <div class="stores-content">
+                    <h2 class="stores-title">Where to Find Us</h2>
+                    <p class="stores-text">
+                        Visit our <strong>flagship store</strong> in Davao City where it all began, or discover our authentic durian treats at our branch locations across Mindanao. Experience the tradition firsthand.
+                    </p>
+                    
+                    <div class="store-highlights">
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-geo-alt"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Davao City - Main Store</h4>
+                                <p>Roxas Avenue, Davao City | (082) 123-4567</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-shop"></i>
+                            </div>
+                            <div class="highlight-text">
+                                <h4>Branch Locations</h4>
+                                <p>Butuan City: J.C. Aquino Avenue<br>
+                                   Cagayan de Oro: Corrales Avenue</p>
+                            </div>
+                        </div>
+                        
+                        <div class="highlight-item">
+                            <div class="highlight-icon">
+                                <i class="bi bi-cart"></i>
+                            </div>
+                            <div class="highlight-text">
+          
+                                <h4>Shop Online</h4>
+                                <div class="online-store-logos">
+                                    <a href="https://shopee.ph/lolaabons" target="_blank">
+                                        <img src="Images/btnicons/shopee.png" alt="Shopee" style="height: 32px; margin-right: 10px;">
+                                    </a>
+                                    <a href="https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc" target="_blank">
+                                        <img src="Images/btnicons/lazada.png" alt="Lazada" style="height: 32px;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="store-locator.php" class="stores-btn">Find Store Locations</a>
+                </div>
+            </div>
         </div>
-      </div>
-
-      <!-- Product Card 2 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <div class="product-image-wrapper">
-            <img src="Images/hero3.jpg" alt="Durian Cubes" class="product-image">
-            <span class="product-badge">Durian Cubes</span>
-          </div>
-          <div class="product-info">
-            <p>Bite-sized creamy durian cubes perfect for everyday snacking.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Product Card 3 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <div class="product-image-wrapper">
-            <img src="Images/hero4.jpg" alt="Durian Candy" class="product-image">
-            <span class="product-badge">Durian Candy</span>
-          </div>
-          <div class="product-info">
-            <p>Experience the classic durian sweetness in every bite-sized piece.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Product Card 4 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <div class="product-image-wrapper">
-            <img src="Images/hero2.jpg" alt="Durian Delights" class="product-image">
-            <span class="product-badge">Durian Delights</span>
-          </div>
-          <div class="product-info">
-            <p>Handcrafted durian specialties, a true taste of heritage and joy.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Product Card 5 -->
-      <div class="col-md-4">
-        <div class="product-card">
-          <div class="product-image-wrapper">
-            <img src="Images/hero.jpg" alt="Premium Durian Treats" class="product-image">
-            <span class="product-badge">Premium Durian Treats</span>
-          </div>
-          <div class="product-info">
-            <p>Premium-grade durian candies made fresh for your sweetest moments.</p>
-          </div>
-        </div>
-      </div>
     </div>
-  </div>
 </section>
 
 <!-- Durian Products Slider Section -->
 <section class="durian-slider-section">
-    <h2 class="display-5 fw-bold" style="color: #111;">Our Signature Durian Creations</h2>
-    <p class="section-subtitle">
-Explore the perfect blend of tradition and innovation in every Lola Abon's specialty product.
-</p>
-    <!-- Swiper Container -->
-    <div class="swiper mySwiper">
-    <div class="swiper-wrapper">
-            <?php include 'common/fetch-slider.php'; ?>
+    <div class="container">
+        <div class="text-center mb-5">
+            <span class="section-badge">Featured Collection</span>
+            <h2 class="display-4 fw-bold mb-3" style="color: #111;">Our Signature Durian Creations</h2>
+            <p class="section-subtitle lead mx-auto" style="max-width: 650px;">
+                Explore the perfect blend of tradition and innovation in every Lola Abon's specialty product, handcrafted with passion since 1950.
+            </p>
         </div>
 
-        <!-- Navigation Arrows -->
-        <div class="swiper-button-next-products"></div>
-        <div class="swiper-button-prev-products"></div>
+        <!-- Swiper Container -->
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <?php include 'common/fetch-slider.php'; ?>
+            </div>
 
-        <!-- Pagination Dots -->
-        <div class="swiper-pagination-products"></div>
-    </div>
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-next-products"></div>
+            <div class="swiper-button-prev-products"></div>
 
-    <!-- View All Button -->
-    <div class="view-all-container">
-        <a href="shop.php" class="view-all-btn">View All</a>
+            <!-- Pagination Dots -->
+            <div class="swiper-pagination-products"></div>
+        </div>
+
+        <!-- Enhanced CTA Section -->
+        <div class="text-center mt-5">
+            <div class="products-cta">
+                <h4 class="mb-3">Discover Our Complete Collection</h4>
+                <p class="mb-4">Browse through our entire range of authentic durian delicacies and find your perfect treat.</p>
+                <a href="shop" class="btn btn-primary btn-lg">
+                    <i class="bi bi-shop me-2"></i>
+                    View All Products
+                </a>
+            </div>
+        </div>
     </div>
 </section>
 <!-- Discover Our Durian Delicacies Section -->
 <section class="durian-delicacies">
   <div class="container">
-    <h2 class="display-5 fw-bold" style="color: #111;">Taste the Sweetness of Tradition</h2>
-    <p class="section-subtitle">
-Indulge in our beloved durian treats crafted from timeless recipes and heartfelt passion.
-</p>
-    <div class="row">
-      <!-- Repeatable Product Card -->
-      <div class="col-md-4 mb-4">
-        <div class="delicacy-card">
-          <img src="Images/hero2.jpg" alt="Chewy Candy & Laces">
-          <div class="card-overlay">
+    <div class="text-center mb-5">
+        <span class="section-badge">Our Specialties</span>
+        <h2 class="display-4 fw-bold mb-3" style="color: #111;">Taste the Sweetness of Tradition</h2>
+        <p class="section-subtitle lead mx-auto" style="max-width: 650px;">
+            Indulge in our beloved durian treats crafted from timeless recipes and heartfelt passion, each bite telling the story of our heritage.
+        </p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Delicacy 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="delicacy-showcase-card">
+          <div class="delicacy-image-wrapper">
+            <img src="Images/hero2.jpg" alt="Chewy Candy & Laces" class="delicacy-showcase-img">
+            <div class="delicacy-overlay">
+              <div class="delicacy-category-badge">
+                <i class="bi bi-heart-fill"></i>
+                <span>Sweet Treats</span>
+              </div>
+            </div>
+          </div>
+          <div class="delicacy-showcase-content">
             <h3>Chewy Candy & Laces</h3>
-            <p>Soft and flavorful durian-infused chewy candies, perfect for a sweet and satisfying treat.</p>
-            <a href="#" class="delicacy-btn">See more</a>
+            <p>Soft and flavorful durian-infused chewy candies, perfect for a sweet and satisfying treat that melts in your mouth.</p>
+            <div class="delicacy-highlights">
+              <span>• Soft Texture</span>
+              <span>• Rich Durian Flavor</span>
+              <span>• Traditional Recipe</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="delicacy-card">
-          <img src="Images/hero4.jpg" alt="Jam Marmalade">
-          <div class="card-overlay">
-            <h3>Jam Marmalade</h3>
-            <p>Rich, spreadable durian jams made from real fruit, ideal for pairing with bread, pastries, or desserts.</p>
-            <a href="#" class="delicacy-btn">See more</a>
+      <!-- Delicacy 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="delicacy-showcase-card">
+          <div class="delicacy-image-wrapper">
+            <img src="Images/hero4.jpg" alt="Jam Marmalade" class="delicacy-showcase-img">
+            <div class="delicacy-overlay">
+              <div class="delicacy-category-badge">
+                <i class="bi bi-droplet-fill"></i>
+                <span>Spreads</span>
+              </div>
+            </div>
+          </div>
+          <div class="delicacy-showcase-content">
+            <h3>Jam & Marmalade</h3>
+            <p>Rich, spreadable durian jams made from real fruit, ideal for pairing with bread, pastries, or your favorite desserts.</p>
+            <div class="delicacy-highlights">
+              <span>• Real Fruit Base</span>
+              <span>• Perfect for Pairing</span>
+              <span>• Premium Quality</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="delicacy-card">
-          <img src="Images/hero1.jpg" alt="Chocolate Biscuits">
-          <div class="card-overlay">
+      <!-- Delicacy 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="delicacy-showcase-card">
+          <div class="delicacy-image-wrapper">
+            <img src="Images/hero1.jpg" alt="Chocolate Biscuits" class="delicacy-showcase-img">
+            <div class="delicacy-overlay">
+              <div class="delicacy-category-badge">
+                <i class="bi bi-cookie"></i>
+                <span>Biscuits</span>
+              </div>
+            </div>
+          </div>
+          <div class="delicacy-showcase-content">
             <h3>Chocolate Biscuits</h3>
-            <p>Crisp, chocolate-coated biscuits that complement the bold flavors of durian snacks.</p>
-            <a href="#" class="delicacy-btn">See more</a>
+            <p>Crisp, chocolate-coated biscuits that complement the bold flavors of durian snacks with perfect crunch and sweetness.</p>
+            <div class="delicacy-highlights">
+              <span>• Crispy Texture</span>
+              <span>• Chocolate Coating</span>
+              <span>• Perfect Companion</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="delicacy-card">
-          <img src="Images/hero1.jpg" alt="Sticks & Shapes Biscuits">
-          <div class="card-overlay">
+      <!-- Delicacy 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="delicacy-showcase-card">
+          <div class="delicacy-image-wrapper">
+            <img src="Images/hero1.jpg" alt="Sticks & Shapes Biscuits" class="delicacy-showcase-img">
+            <div class="delicacy-overlay">
+              <div class="delicacy-category-badge">
+                <i class="bi bi-star-fill"></i>
+                <span>Fun Shapes</span>
+              </div>
+            </div>
+          </div>
+          <div class="delicacy-showcase-content">
             <h3>Sticks & Shapes Biscuits</h3>
-            <p>Fun and delicious biscuit snacks in various shapes, great for dipping or enjoying on their own.</p>
-            <a href="#" class="delicacy-btn">See more</a>
+            <p>Fun and delicious biscuit snacks in various shapes, great for dipping or enjoying on their own as perfect finger foods.</p>
+            <div class="delicacy-highlights">
+              <span>• Playful Shapes</span>
+              <span>• Great for Dipping</span>
+              <span>• Family Favorite</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="delicacy-card">
-          <img src="Images/hero3.jpg" alt="Ready-To-Drink Coffee">
-          <div class="card-overlay">
+      <!-- Delicacy 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="delicacy-showcase-card">
+          <div class="delicacy-image-wrapper">
+            <img src="Images/hero3.jpg" alt="Ready-To-Drink Coffee" class="delicacy-showcase-img">
+            <div class="delicacy-overlay">
+              <div class="delicacy-category-badge">
+                <i class="bi bi-cup-hot-fill"></i>
+                <span>Beverages</span>
+              </div>
+            </div>
+          </div>
+          <div class="delicacy-showcase-content">
             <h3>Ready-To-Drink Coffee</h3>
-            <p>Smooth and aromatic coffee blends that pair perfectly with Lola Abon’s durian treats.</p>
-            <a href="#" class="delicacy-btn">See more</a>
+            <p>Smooth and aromatic coffee blends that pair perfectly with Lola Abon's durian treats for the ultimate experience.</p>
+            <div class="delicacy-highlights">
+              <span>• Aromatic Blend</span>
+              <span>• Perfect Pairing</span>
+              <span>• Ready to Enjoy</span>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="col-md-4 mb-4">
-        <div class="delicacy-card">
-          <img src="Images/hero2.jpg" alt="Gifting & Festive Sweets">
-          <div class="card-overlay">
+      <!-- Delicacy 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="delicacy-showcase-card">
+          <div class="delicacy-image-wrapper">
+            <img src="Images/hero2.jpg" alt="Gifting & Festive Sweets" class="delicacy-showcase-img">
+            <div class="delicacy-overlay">
+              <div class="delicacy-category-badge">
+                <i class="bi bi-gift-fill"></i>
+                <span>Gift Sets</span>
+              </div>
+            </div>
+          </div>
+          <div class="delicacy-showcase-content">
             <h3>Gifting & Festive Sweets</h3>
-            <p>Specially curated durian delicacy gift sets, perfect for sharing the taste of tradition on any occasion.</p>
-            <a href="#" class="delicacy-btn">See more</a>
+            <p>Specially curated durian delicacy gift sets, perfect for sharing the taste of tradition on any special occasion.</p>
+            <div class="delicacy-highlights">
+              <span>• Curated Selection</span>
+              <span>• Beautiful Packaging</span>
+              <span>• Perfect for Gifting</span>
+            </div>
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Simple CTA -->
+    <div class="text-center mt-5">
+        <p class="lead mb-4">Discover the full range of our authentic durian delicacies</p>
+        <a href="shop" class="btn btn-outline-success btn-lg px-5">Explore All Products</a>
     </div>
   </div>
 </section>
@@ -379,82 +479,142 @@ Indulge in our beloved durian treats crafted from timeless recipes and heartfelt
 <!-- Our Services Section -->
 <section class="services-section">
     <div class="container">
-        <h2 class="display-5 fw-bold" style="color: #111;">Our Services</h2>
-        <p class="section-subtitle">
-            Bringing tradition, sweetness, and convenience through our signature products and personalized service.
-        </p>
+        <div class="text-center mb-5">
+            <span class="section-badge">What We Offer</span>
+            <h2 class="display-4 fw-bold mb-3" style="color: #111;">Our Premium Services</h2>
+            <p class="section-subtitle lead mx-auto" style="max-width: 600px;">
+                From handcrafted treats to custom packaging, we deliver excellence in every aspect of our durian confectionery business.
+            </p>
+        </div>
 
-        <div class="row">
+        <div class="row g-4">
             <!-- Service 1 -->
-            <div class="col-md-6">
-                <div class="service-card">
-                    <img src="Images/prodservice1.png" alt="Handcrafted Durian Sweets" class="service-image">
-                    <div class="service-info">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card-modern">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-heart-fill service-icon"></i>
+                    </div>
+                    <div class="service-image-container">
+                        <img src="Images/prodservice1.png" alt="Handcrafted Durian Sweets" class="service-image-modern">
+                    </div>
+                    <div class="service-content-modern">
                         <h3>Handcrafted Durian Sweets</h3>
-                        <p>We specialize in making high-quality durian-based delicacies like yema, candy, macaroons, and
-                            tarts using traditional family recipes passed down since the 1950s.</p>
+                        <p>Premium durian-based delicacies like yema, candy, macaroons, and tarts using traditional family recipes passed down since the 1950s.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Traditional Recipes</span>
+                            <span class="feature-tag">Premium Quality</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Service 2 -->
-            <div class="col-md-6">
-                <div class="service-card">
-                    <img src="Images/prodservice2.png" alt="Wholesale & Bulk Orders" class="service-image">
-                    <div class="service-info">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card-modern">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-boxes service-icon"></i>
+                    </div>
+                    <div class="service-image-container">
+                        <img src="Images/prodservice2.png" alt="Wholesale & Bulk Orders" class="service-image-modern">
+                    </div>
+                    <div class="service-content-modern">
                         <h3>Wholesale & Bulk Orders</h3>
-                        <p>We offer large-scale production and packaging for resellers, souvenir shops, pasalubong
-                            centers, and events across the country.</p>
+                        <p>Large-scale production and packaging for resellers, souvenir shops, pasalubong centers, and events across the Philippines.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Bulk Orders</span>
+                            <span class="feature-tag">Nationwide</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Service 3 -->
-            <div class="col-md-6">
-                <div class="service-card">
-                    <img src="Images/prodservice3.png" alt="Custom Packaging & Gift Packs" class="service-image">
-                    <div class="service-info">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card-modern">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-gift-fill service-icon"></i>
+                    </div>
+                    <div class="service-image-container">
+                        <img src="Images/prodservice3.png" alt="Custom Packaging & Gift Packs" class="service-image-modern">
+                    </div>
+                    <div class="service-content-modern">
                         <h3>Custom Packaging & Gift Packs</h3>
-                        <p>Perfect for corporate giveaways, weddings, or holiday gifting, our curated durian sets come
-                            in elegant packaging ready to impress.</p>
+                        <p>Elegant packaging solutions perfect for corporate giveaways, weddings, or holiday gifting. Custom branding available.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Custom Design</span>
+                            <span class="feature-tag">Corporate Ready</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Service 4 -->
-            <div class="col-md-6">
-                <div class="service-card">
-                    <img src="Images/prodservice4.png" alt="Pasalubong & Souvenir Support" class="service-image">
-                    <div class="service-info">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card-modern">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-airplane-fill service-icon"></i>
+                    </div>
+                    <div class="service-image-container">
+                        <img src="Images/prodservice4.png" alt="Pasalubong & Souvenir Support" class="service-image-modern">
+                    </div>
+                    <div class="service-content-modern">
                         <h3>Pasalubong & Souvenir Support</h3>
-                        <p>Lola Abon's offers specially packed items for travelers, local tourists, and export-quality
-                            goods for overseas Filipinos looking for a taste of home.</p>
+                        <p>Specially packed items for travelers and export-quality goods for overseas Filipinos seeking authentic taste of home.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">Travel Ready</span>
+                            <span class="feature-tag">Export Quality</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Service 5 -->
-            <div class="col-md-6">
-                <div class="service-card">
-                    <img src="Images/prodservice5.png" alt="Retail Storefronts" class="service-image">
-                    <div class="service-info">
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card-modern">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-shop service-icon"></i>
+                    </div>
+                    <div class="service-image-container">
+                        <img src="Images/prodservice5.png" alt="Retail Storefronts" class="service-image-modern">
+                    </div>
+                    <div class="service-content-modern">
                         <h3>Retail Storefronts</h3>
-                        <p>Visit our stores in Davao, Butuan, and CDO to enjoy freshly packed goodies and friendly
-                            service from the heart of Mindanao.</p>
+                        <p>Visit our flagship stores in Davao, Butuan, and CDO for freshly packed goodies and personalized service from Mindanao.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">3 Locations</span>
+                            <span class="feature-tag">Fresh Daily</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <!-- Service 6 -->
-            <div class="col-md-6">
-                <div class="service-card">
-                    <img src="Images/prodservice6.png" alt="Local & Online Selling" class="service-image">
-                    <div class="service-info">
-                        <h3>Local & Online Selling</h3>
-                        <p>Shop Lola Abon's treats through Shopee, Lazada, or directly from our local distributors and
-                            pop-up booths during festivals and events.</p>
+            <div class="col-lg-4 col-md-6">
+                <div class="service-card-modern">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-cart-fill service-icon"></i>
+                    </div>
+                    <div class="service-image-container">
+                        <img src="Images/prodservice6.png" alt="Local & Online Selling" class="service-image-modern">
+                    </div>
+                    <div class="service-content-modern">
+                        <h3>Online & Digital Commerce</h3>
+                        <p>Shop conveniently through Shopee, Lazada, or find us at local distributors and festival booths throughout the year.</p>
+                        <div class="service-features">
+                            <span class="feature-tag">E-Commerce</span>
+                            <span class="feature-tag">Festival Booths</span>
+                        </div>
                     </div>
                 </div>
+            </div>
+        </div>
+
+        <!-- Call to Action -->
+        <div class="text-center mt-5">
+            <div class="services-cta">
+                <h4 class="mb-3">Need Custom Solutions?</h4>
+                <p class="mb-4">Let's discuss how we can create the perfect durian experience for your needs.</p>
+                <a href="contact-us" class="btn btn-primary btn-lg">Get in Touch</a>
             </div>
         </div>
     </div>
@@ -463,67 +623,209 @@ Indulge in our beloved durian treats crafted from timeless recipes and heartfelt
 
 <section class="customer-reviews">
   <div class="container">
-  <h2 class="display-5 fw-bold" style="color: #111;">Customer Reviews</h2>
-    <p class="section-subtitle">Hear from our satisfied customers around the world.</p>
+    <div class="text-center mb-5">
+        <span class="section-badge">What Our Customers Say</span>
+        <h2 class="display-4 fw-bold mb-3" style="color: #111;">Customer Reviews</h2>
+        <p class="section-subtitle lead mx-auto" style="max-width: 600px;">
+            Hear from our satisfied customers around the world who have experienced the authentic taste of our durian delicacies.
+        </p>
+    </div>
 
     <div class="row g-4">
       <!-- Review 1 -->
-      <div class="col-md-4">
-        <div class="review-card">
-          <div>
-            <div class="review-stars">★★★★★</div>
-            <p class="review-text">
-              The durian yema is absolutely heavenly! Packaging was elegant and kept everything fresh. Will order again!
-            </p>
+      <div class="col-lg-4 col-md-6">
+        <div class="review-card-modern">
+          <div class="review-quote-icon">
+            <i class="bi bi-quote"></i>
           </div>
-          <div class="review-author">
-            <img src="Images/avatar.png" alt="Clarice Turner">
-            <div>
-              <div>Clarice Turner</div>
-              <div style="font-weight: normal; font-size: 0.9rem; color: #777;">California, USA</div>
+          <div class="review-stars-modern">
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+          </div>
+          <p class="review-text-modern">
+            "The durian yema is absolutely heavenly! Packaging was elegant and kept everything fresh. The authentic taste reminds me of home. Will definitely order again!"
+          </p>
+          <div class="review-author-modern">
+            <div class="author-avatar">
+              <img src="Images/avatar.png" alt="Clarice Turner">
+            </div>
+            <div class="author-details">
+              <h5 class="author-name-modern">Clarice Turner</h5>
+              <p class="author-location-modern">
+                <i class="bi bi-geo-alt-fill"></i>
+                California, USA
+              </p>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Review 2 -->
-      <div class="col-md-4">
-        <div class="review-card">
-          <div>
-            <div class="review-stars">★★★★★</div>
-            <p class="review-text">
-              Truly authentic taste. Reminds me of home! The flavors are rich and the sweetness is just perfect.
-            </p>
+      <div class="col-lg-4 col-md-6">
+        <div class="review-card-modern">
+          <div class="review-quote-icon">
+            <i class="bi bi-quote"></i>
           </div>
-          <div class="review-author">
-            <img src="Images/avatar.png" alt="Brian Moten">
-            <div>
-              <div>Brian Moten</div>
-              <div style="font-weight: normal; font-size: 0.9rem; color: #777;">Melbourne, Australia</div>
+          <div class="review-stars-modern">
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+          </div>
+          <p class="review-text-modern">
+            "Truly authentic taste that reminds me of home! The flavors are rich and the sweetness is just perfect. Quality ingredients really show through."
+          </p>
+          <div class="review-author-modern">
+            <div class="author-avatar">
+              <img src="Images/avatar.png" alt="Brian Moten">
+            </div>
+            <div class="author-details">
+              <h5 class="author-name-modern">Brian Moten</h5>
+              <p class="author-location-modern">
+                <i class="bi bi-geo-alt-fill"></i>
+                Melbourne, Australia
+              </p>
             </div>
           </div>
         </div>
       </div>
 
       <!-- Review 3 -->
-      <div class="col-md-4">
-        <div class="review-card">
-          <div>
-            <div class="review-stars">★★★★★</div>
-            <p class="review-text">
-              Fast delivery and excellent customer service! The durian cubes were creamy and fresh. Highly recommend.
-            </p>
+      <div class="col-lg-4 col-md-6">
+        <div class="review-card-modern">
+          <div class="review-quote-icon">
+            <i class="bi bi-quote"></i>
           </div>
-          <div class="review-author">
-            <img src="Images/avatar.png" alt="Jessica Ramirez">
-            <div>
-              <div>Jessica Ramirez</div>
-              <div style="font-weight: normal; font-size: 0.9rem; color: #777;">Davao City, PH</div>
+          <div class="review-stars-modern">
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+          </div>
+          <p class="review-text-modern">
+            "Fast delivery and excellent customer service! The durian cubes were creamy and fresh. Amazing traditional recipes that you can't find anywhere else."
+          </p>
+          <div class="review-author-modern">
+            <div class="author-avatar">
+              <img src="Images/avatar.png" alt="Jessica Ramirez">
+            </div>
+            <div class="author-details">
+              <h5 class="author-name-modern">Jessica Ramirez</h5>
+              <p class="author-location-modern">
+                <i class="bi bi-geo-alt-fill"></i>
+                Davao City, Philippines
+              </p>
             </div>
           </div>
         </div>
       </div>
 
+      <!-- Review 4 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="review-card-modern">
+          <div class="review-quote-icon">
+            <i class="bi bi-quote"></i>
+          </div>
+          <div class="review-stars-modern">
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+          </div>
+          <p class="review-text-modern">
+            "Perfect gift for family overseas! The packaging is beautiful and the taste is exactly what I remembered from childhood. Highly recommended!"
+          </p>
+          <div class="review-author-modern">
+            <div class="author-avatar">
+              <img src="Images/avatar.png" alt="Maria Santos">
+            </div>
+            <div class="author-details">
+              <h5 class="author-name-modern">Maria Santos</h5>
+              <p class="author-location-modern">
+                <i class="bi bi-geo-alt-fill"></i>
+                Toronto, Canada
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 5 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="review-card-modern">
+          <div class="review-quote-icon">
+            <i class="bi bi-quote"></i>
+          </div>
+          <div class="review-stars-modern">
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+          </div>
+          <p class="review-text-modern">
+            "Been ordering for years and the quality never disappoints. The durian macaroons are my absolute favorite - perfectly balanced sweetness!"
+          </p>
+          <div class="review-author-modern">
+            <div class="author-avatar">
+              <img src="Images/avatar.png" alt="Robert Chen">
+            </div>
+            <div class="author-details">
+              <h5 class="author-name-modern">Robert Chen</h5>
+              <p class="author-location-modern">
+                <i class="bi bi-geo-alt-fill"></i>
+                Singapore
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review 6 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="review-card-modern">
+          <div class="review-quote-icon">
+            <i class="bi bi-quote"></i>
+          </div>
+          <div class="review-stars-modern">
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+            <span class="star-filled">★</span>
+          </div>
+          <p class="review-text-modern">
+            "Outstanding service and products! The gift sets are beautifully presented and taste incredible. Perfect for special occasions."
+          </p>
+          <div class="review-author-modern">
+            <div class="author-avatar">
+              <img src="Images/avatar.png" alt="Sarah Johnson">
+            </div>
+            <div class="author-details">
+              <h5 class="author-name-modern">Sarah Johnson</h5>
+              <p class="author-location-modern">
+                <i class="bi bi-geo-alt-fill"></i>
+                London, UK
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reviews CTA -->
+    <div class="text-center mt-5">
+        <div class="reviews-cta">
+            <h4 class="mb-3">Love Our Products?</h4>
+            <p class="mb-4">Share your experience and join thousands of satisfied customers worldwide.</p>
+            <a href="contact-us" class="btn btn-outline-warning btn-lg px-4">Leave a Review</a>
+        </div>
     </div>
   </div>
 </section>
@@ -586,7 +888,6 @@ Indulge in our beloved durian treats crafted from timeless recipes and heartfelt
 
 <!-- Bootstrap Icons -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-    <!--idea:https://www.elegantthemes.com/layouts/food-drink/candy-shop-about-page-->
     <!--Contact us-->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
