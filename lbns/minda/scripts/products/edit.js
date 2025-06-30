@@ -22,7 +22,7 @@ function editProduct(
   
     // Show current slideshow image
     const currentSlide = document.getElementById("currentSlideshowImg");
-    currentSlide.src = slideshowImg ? `../../../lbns/Images/slideshow/${slideshowImg}` : '';
+    currentSlide.src = slideshowImg ? `../../../lbnsv1/Images/slideshow/${slideshowImg}` : '';
     currentSlide.style.display = slideshowImg ? 'block' : 'none';
    console.log(currentSlide.src);
     // Reset removed thumbnails tracker
@@ -39,7 +39,7 @@ function editProduct(
         wrapper.style.height = "80px";
   
         const thumb = document.createElement("img");
-        thumb.src = `../../../lbns/Images/thumbnail/${img}`;
+        thumb.src = `../../../lbnsv1/Images/thumbnail/${img}`;
         thumb.className = "img-thumbnail";
         thumb.style.width = "100%";
         thumb.style.height = "100%";

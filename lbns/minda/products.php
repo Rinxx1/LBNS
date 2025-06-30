@@ -28,9 +28,113 @@
     <!-- Manifest for Progressive Web Apps (Optional) -->
     <link rel="manifest" href="../../Images/favicon/site.webmanifest">
 
+    <style>
+/* ===== DIRECT MODAL SCROLLING FIX ===== */
+/* Force scrolling with !important declarations */
+
+.modal-dialog-scrollable {
+    height: 85vh !important;
+    max-height: 85vh !important;
+}
+
+.modal-dialog-scrollable .modal-content {
+    height: 100% !important;
+    max-height: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+}
+
+.modal-dialog-scrollable .modal-body {
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    flex: 1 !important;
+    min-height: 0 !important;
+    max-height: calc(85vh - 160px) !important;
+}
+
+.modal-dialog-scrollable .modal-header,
+.modal-dialog-scrollable .modal-footer {
+    flex-shrink: 0 !important;
+}
+
+/* Force visible scrollbar */
+.modal-body::-webkit-scrollbar {
+    width: 12px !important;
+}
+
+.modal-body::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+    border-radius: 6px !important;
+}
+
+.modal-body::-webkit-scrollbar-thumb {
+    background: #888 !important;
+    border-radius: 6px !important;
+}
+
+.modal-body::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+}
+
+/* Additional mobile fix */
+@media (max-width: 768px) {
+    .modal-dialog-scrollable {
+        height: 90vh !important;
+        max-height: 90vh !important;
+    }
+    
+    .modal-dialog-scrollable .modal-body {
+        max-height: calc(90vh - 140px) !important;
+    }
+}
+    </style>
+
+    <script>
+// Aggressive scrolling fix with multiple approaches
+document.addEventListener('DOMContentLoaded', function() {
+    // Method 1: Force on modal show
+    $('.modal').on('shown.bs.modal', function() {
+        const modal = $(this);
+        const modalBody = modal.find('.modal-body');
+        
+        // Force scrollable styles
+        modalBody.css({
+            'overflow-y': 'auto',
+            'overflow-x': 'hidden',
+            'max-height': 'calc(85vh - 160px)',
+            'flex': '1',
+            'min-height': '0'
+        });
+        
+        // Force modal content structure
+        modal.find('.modal-content').css({
+            'height': '100%',
+            'max-height': '100%',
+            'display': 'flex',
+            'flex-direction': 'column',
+            'overflow': 'hidden'
+        });
+        
+        modal.find('.modal-header, .modal-footer').css({
+            'flex-shrink': '0'
+        });
+    });
+    
+    // Method 2: Force after DOM ready
+    setTimeout(function() {
+        $('.modal-dialog-scrollable .modal-body').each(function() {
+            $(this).css({
+                'overflow-y': 'auto',
+                'max-height': 'calc(85vh - 160px)'
+            });
+        });
+    }, 100);
+});
+    </script>
 </head>
 <body
-  style="background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/st.png') center/cover no-repeat;">
+  style="background: linear-gradient(135deg,rgb(44, 133, 65),rgb(53, 108, 92));, rgba(0, 0, 0, 0.5)), url('Images/st.png') center/cover no-repeat;">
 
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
