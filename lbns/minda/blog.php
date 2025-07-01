@@ -64,14 +64,30 @@
     <p class="text-white">Keep your followers updated with fresh durian stories and announcements</p>
   </div>
 
-  <!-- Stores Table Section -->
+  <!-- Blogs Table Section -->
   <div class="card bg-dark text-light shadow-lg rounded-4 p-4 mb-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
-      <h4 class="fw-semibold">Blogs Table</h4>  
-    <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addBlogModal">
-  <i class="bi bi-plus-lg me-1"></i> Add Blog
-</button>
-
+      <h4 class="fw-semibold">Blogs Table</h4>
+      <div class="d-flex gap-2 align-items-center">
+        <!-- Items per page selector for blogs -->
+        <select id="blogsPerPage" class="form-select form-select-sm text-light bg-dark border-secondary" style="width: auto;">
+          <option value="5" selected>5 per page</option>
+          <option value="10">10 per page</option>
+          <option value="25">25 per page</option>
+          <option value="50">50 per page</option>
+        </select>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addBlogModal">
+          <i class="bi bi-plus-lg me-1"></i> Add Blog
+        </button>
+      </div>
+    </div>
+    
+    <!-- Search and Info Bar for Blogs -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div class="d-flex align-items-center gap-3">
+        <input type="text" id="searchBlogs" class="form-control form-control-sm bg-dark text-light border-secondary" placeholder="Search blogs..." style="width: 250px;">
+        <span id="blogTableInfo" class="text-muted small"></span>
+      </div>
     </div>
 
     <div class="table-responsive">
@@ -87,7 +103,20 @@
         <tbody id="blogTableBody"></tbody>
       </table>
     </div>
+    
+    <!-- Pagination Controls for Blogs -->
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <div class="text-muted small">
+        Showing <span id="blogShowingStart">0</span> to <span id="blogShowingEnd">0</span> of <span id="totalBlogs">0</span> blogs
+      </div>
+      <nav aria-label="Blogs pagination">
+        <ul class="pagination pagination-sm mb-0" id="blogPaginationContainer">
+          <!-- Pagination buttons will be generated here -->
+        </ul>
+      </nav>
+    </div>
   </div>
+
 </div>
 </main>
 

@@ -31,7 +31,7 @@
     <link rel="manifest" href="Images/favicon/site.webmanifest">
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"> 
 
 </head>
 

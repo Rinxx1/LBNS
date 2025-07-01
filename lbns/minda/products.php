@@ -27,9 +27,8 @@
     
     <!-- Manifest for Progressive Web Apps (Optional) -->
     <link rel="manifest" href="../../Images/favicon/site.webmanifest">
-
-    <style>
-/* ===== DIRECT MODAL SCROLLING FIX ===== */
+<style>
+  /* ===== DIRECT MODAL SCROLLING FIX ===== */
 /* Force scrolling with !important declarations */
 
 .modal-dialog-scrollable {
@@ -83,13 +82,12 @@
         height: 90vh !important;
         max-height: 90vh !important;
     }
-    
+
     .modal-dialog-scrollable .modal-body {
         max-height: calc(90vh - 140px) !important;
     }
 }
-    </style>
-
+</style>
     <script>
 // Aggressive scrolling fix with multiple approaches
 document.addEventListener('DOMContentLoaded', function() {
@@ -131,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }, 100);
 });
-    </script>
+    </script> 
 </head>
 <body
   style="background: linear-gradient(135deg,rgb(44, 133, 65),rgb(53, 108, 92));, rgba(0, 0, 0, 0.5)), url('Images/st.png') center/cover no-repeat;">
@@ -172,10 +170,28 @@ document.addEventListener('DOMContentLoaded', function() {
   <div class="card bg-dark text-light shadow-lg rounded-4 p-4 mb-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h4 class="fw-semibold">Product Categories</h4>
-      <button class="btn btn-success btn-sm fw-semibold" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
-        <i class="bi bi-plus-lg me-1"></i> Add Category
-      </button>
+      <div class="d-flex gap-2 align-items-center">
+        <!-- Items per page selector for categories -->
+        <select id="categoriesPerPage" class="form-select form-select-sm text-light bg-dark border-secondary" style="width: auto;">
+          <option value="5" selected>5 per page</option>
+          <option value="10">10 per page</option>
+          <option value="25">25 per page</option>
+          <option value="50">50 per page</option>
+        </select>
+        <button class="btn btn-success btn-sm fw-semibold" data-bs-toggle="modal" data-bs-target="#addCategoryModal">
+          <i class="bi bi-plus-lg me-1"></i> Add Category
+        </button>
+      </div>
     </div>
+    
+    <!-- Search and Info Bar for Categories -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div class="d-flex align-items-center gap-3">
+        <input type="text" id="searchCategories" class="form-control form-control-sm bg-dark text-light border-secondary" placeholder="Search categories..." style="width: 250px;">
+        <span id="categoryTableInfo" class="text-muted small"></span>
+      </div>
+    </div>
+    
     <div class="table-responsive">
       <table class="table table-dark table-striped table-hover align-middle rounded-3 overflow-hidden">
         <thead class="table-light">
@@ -189,16 +205,46 @@ document.addEventListener('DOMContentLoaded', function() {
         </tbody>
       </table>
     </div>
+    
+    <!-- Pagination Controls for Categories -->
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <div class="text-muted small">
+        Showing <span id="categoryShowingStart">0</span> to <span id="categoryShowingEnd">0</span> of <span id="totalCategories">0</span> categories
+      </div>
+      <nav aria-label="Categories pagination">
+        <ul class="pagination pagination-sm mb-0" id="categoryPaginationContainer">
+          <!-- Pagination buttons will be generated here -->
+        </ul>
+      </nav>
+    </div>
   </div>
 
   <!-- Products Section -->
   <div class="card bg-dark text-light shadow-lg rounded-4 p-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h4 class="fw-semibold">Product List</h4>
-      <button class="btn btn-success btn-sm fw-semibold" data-bs-toggle="modal" data-bs-target="#addProductModal">
-        <i class="bi bi-plus-lg me-1"></i> Add Product
-      </button>
+      <div class="d-flex gap-2 align-items-center">
+        <!-- Items per page selector -->
+        <select id="itemsPerPage" class="form-select form-select-sm text-light bg-dark border-secondary" style="width: auto;">
+          <option value="5">5 per page</option>
+          <option value="10" selected>10 per page</option>
+          <option value="25">25 per page</option>
+          <option value="50">50 per page</option>
+        </select>
+        <button class="btn btn-success btn-sm fw-semibold" data-bs-toggle="modal" data-bs-target="#addProductModal">
+          <i class="bi bi-plus-lg me-1"></i> Add Product
+        </button>
+      </div>
     </div>
+    
+    <!-- Search and Info Bar -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div class="d-flex align-items-center gap-3">
+        <input type="text" id="searchProducts" class="form-control form-control-sm bg-dark text-light border-secondary" placeholder="Search products..." style="width: 250px;">
+        <span id="tableInfo" class="text-muted small"></span>
+      </div>
+    </div>
+    
     <div class="table-responsive">
       <table class="table table-dark table-striped table-hover align-middle rounded-3 overflow-hidden">
         <thead class="table-light">
@@ -213,6 +259,18 @@ document.addEventListener('DOMContentLoaded', function() {
         <tbody id="productTableBody">
         </tbody>
       </table>
+    </div>
+    
+    <!-- Pagination Controls -->
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <div class="text-muted small">
+        Showing <span id="showingStart">0</span> to <span id="showingEnd">0</span> of <span id="totalProducts">0</span> products
+      </div>
+      <nav aria-label="Products pagination">
+        <ul class="pagination pagination-sm mb-0" id="paginationContainer">
+          <!-- Pagination buttons will be generated here -->
+        </ul>
+      </nav>
     </div>
   </div>
 

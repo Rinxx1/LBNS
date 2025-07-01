@@ -68,10 +68,26 @@
   <div class="card bg-dark text-light shadow-lg rounded-4 p-4 mb-5">
     <div class="d-flex justify-content-between align-items-center mb-3">
       <h4 class="fw-semibold">Store List</h4>
-      <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addStoreModal">
-  <i class="bi bi-plus-lg me-1"></i> Add Store
-</button>
-
+      <div class="d-flex gap-2 align-items-center">
+        <!-- Items per page selector for stores -->
+        <select id="storesPerPage" class="form-select form-select-sm text-light bg-dark border-secondary" style="width: auto;">
+          <option value="5" selected>5 per page</option>
+          <option value="10">10 per page</option>
+          <option value="25">25 per page</option>
+          <option value="50">50 per page</option>
+        </select>
+        <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#addStoreModal">
+          <i class="bi bi-plus-lg me-1"></i> Add Store
+        </button>
+      </div>
+    </div>
+    
+    <!-- Search and Info Bar for Stores -->
+    <div class="d-flex justify-content-between align-items-center mb-3">
+      <div class="d-flex align-items-center gap-3">
+        <input type="text" id="searchStores" class="form-control form-control-sm bg-dark text-light border-secondary" placeholder="Search stores..." style="width: 250px;">
+        <span id="storeTableInfo" class="text-muted small"></span>
+      </div>
     </div>
 
     <div class="table-responsive">
@@ -88,6 +104,18 @@
         <tbody id="storeTableBody">
         </tbody>
       </table>
+    </div>
+    
+    <!-- Pagination Controls for Stores -->
+    <div class="d-flex justify-content-between align-items-center mt-3">
+      <div class="text-muted small">
+        Showing <span id="storeShowingStart">0</span> to <span id="storeShowingEnd">0</span> of <span id="totalStores">0</span> stores
+      </div>
+      <nav aria-label="Stores pagination">
+        <ul class="pagination pagination-sm mb-0" id="storePaginationContainer">
+          <!-- Pagination buttons will be generated here -->
+        </ul>
+      </nav>
     </div>
   </div>
 </div>
