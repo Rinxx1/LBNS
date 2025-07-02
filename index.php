@@ -134,144 +134,6 @@
     </div>
 </section>
 
-<!-- About Us Section -->
-<section class="about-section section-connector">
-    <div class="connector-circle connector-circle-1"></div>
-    <div class="connector-circle connector-circle-2"></div>
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Left Side: Text Content -->
-            <div class="col-lg-6">
-                <div class="about-content">
-                    <span class="section-badge">Since 1950</span>
-                    <h2 class="about-title">Our Heritage</h2>
-                    <p class="about-text">
-                        From <strong>Lola Abon's</strong> humble kitchen in Davao to becoming the Philippines' 
-                        premier durian confectionery, our story is one of passion and tradition that spans three generations.
-                    </p>
-                    <div class="heritage-highlights">
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="bi bi-trophy"></i>
-                            </div>
-                            <div class="highlight-text">
-                                <h4>Award-Winning</h4>
-                                <p>Recognized for excellence in Philippine confectionery</p>
-                            </div>
-                        </div>
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="bi bi-star"></i>
-                            </div>
-                            <div class="highlight-text">
-                                <h4>Authentic Flavor</h4>
-                                <p>Using only genuine Davao durian in our recipes</p>
-                            </div>
-                        </div>
-                    </div>
-                    <a href="about-us" class="about-btn">Discover our story</a>
-                </div>
-            </div>
-
-            <!-- Right Side: Image & Statistics -->
-            <div class="col-lg-6 position-relative">
-                <div class="about-image-container">
-                    <img src="Images/about-us.png" alt="Lola Abon's Store" class="about-image">
-                    <div class="about-stats">
-                        <div class="stat-item">
-                            <h3>70+</h3>
-                            <p>Years of Heritage</p>
-                        </div>
-                 
-                        <div class="stat-item">
-                            <h3>20+</h3>
-                            <p>Signature Durian Delicacies</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Visit Our Stores Section -->
-<section class="stores-section section-connector">
-    <div class="connector-circle connector-circle-1"></div>
-    <div class="connector-circle connector-circle-2"></div>
-    <div class="container">
-        <div class="row align-items-center">
-            <!-- Left Side: Large Image -->
-            <div class="col-lg-6 position-relative">
-                <div class="stores-image-container">
-                    <img src="Images/Storesection.jpg" alt="Customers buying durian treats at Lola Abon's" class="stores-image">
-                    <div class="stores-stats">
-                        <div class="stat-item">
-                            <h3>3</h3>
-                            <p>Store Locations</p>
-                        </div>
-                        <div class="stat-item">
-                            <h3>70+</h3>
-                            <p>Years Serving</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Right Side: Store Information -->
-            <div class="col-lg-6">
-                <div class="stores-content">
-                    <h2 class="stores-title">Where to Find Us</h2>
-                    <p class="stores-text">
-                        Visit our <strong>flagship store</strong> in Davao City where it all began, or discover our authentic durian treats at our branch locations across Mindanao. Experience the tradition firsthand.
-                    </p>
-                    
-                    <div class="store-highlights">
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="bi bi-geo-alt"></i>
-                            </div>
-                            <div class="highlight-text">
-                                <h4>Davao City - Main Store</h4>
-                                <p>Roxas Avenue, Davao City | (082) 123-4567</p>
-                            </div>
-                        </div>
-                        
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="bi bi-shop"></i>
-                            </div>
-                            <div class="highlight-text">
-                                <h4>Branch Locations</h4>
-                                <p>Butuan City: J.C. Aquino Avenue<br>
-                                   Cagayan de Oro: Corrales Avenue</p>
-                            </div>
-                        </div>
-                        
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="bi bi-cart"></i>
-                            </div>
-                            <div class="highlight-text">
-          
-                                <h4>Shop Online</h4>
-                                <div class="online-store-logos">
-                                    <a href="https://shopee.ph/lolaabons" target="_blank">
-                                        <img src="Images/btnicons/shopee.png" alt="Shopee" style="height: 32px; margin-right: 10px;">
-                                    </a>
-                                    <a href="https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc" target="_blank">
-                                        <img src="Images/btnicons/lazada.png" alt="Lazada" style="height: 32px;">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <a href="store-locator" class="stores-btn">Find Store Locations</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 <!-- Enhanced About Us Section -->
 <section class="about-section section-connector">
     <div class="connector-circle connector-circle-1"></div>
@@ -430,22 +292,22 @@
                             </div>
                         </div>
                         
-                        <div class="highlight-item">
-                            <div class="highlight-icon">
-                                <i class="bi bi-cart"></i>
-                            </div>
-                            <div class="highlight-text">
-                                <h4>Shop Online</h4>
-                                <div class="online-store-logos">
-                                    <a href="https://shopee.ph/lolaabons" target="_blank">
-                                        <img src="Images/btnicons/shopee.png" alt="Shopee" style="height: 32px; margin-right: 10px;">
-                                    </a>
-                                    <a href="https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc" target="_blank">
-                                        <img src="Images/btnicons/lazada.png" alt="Lazada" style="height: 32px;">
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
+                      <div class="highlight-item">
+                          <div class="highlight-icon">
+                              <i class="bi bi-cart"></i>
+                          </div>
+                          <div class="highlight-text">
+                              <h4>Shop Online</h4>
+                              <div class="online-store-logos d-flex justify-content-center align-items-center">
+                                  <a href="https://shopee.ph/lolaabons" target="_blank" class="me-2">
+                                      <img src="Images/btnicons/shopee.png" alt="Shopee" style="height: 32px;">
+                                  </a>
+                                  <a href="https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc" target="_blank">
+                                      <img src="Images/btnicons/lazada.png" alt="Lazada" style="height: 32px;">
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                     
                     <a href="store-locator" class="stores-btn">Find Store Locations</a>
@@ -454,6 +316,7 @@
         </div>
     </div>
 </section>
+
 <!-- Durian Products Slider Section -->
 <section class="durian-slider-section">
     <div class="container">
