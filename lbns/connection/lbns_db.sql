@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 28, 2025 at 05:28 PM
+-- Generation Time: Jun 23, 2025 at 03:21 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -63,7 +63,7 @@ CREATE TABLE `product_category_tbl` (
 --
 
 INSERT INTO `product_category_tbl` (`Product_Category_ID`, `Product_Category_Name`) VALUES
-(1, 'Durian'),
+(1, 'Duriann'),
 (2, 'Yema'),
 (3, 'Candies'),
 (4, 'Jam Honey & Spreads'),
@@ -157,6 +157,7 @@ CREATE TABLE `product_tbl` (
   `Product_Shelflife` varchar(80) NOT NULL,
   `Product_Weight` varchar(80) NOT NULL,
   `Product_Price` decimal(10,0) NOT NULL,
+  `Product_Price_From` varchar(250) NOT NULL,
   `Product_ShopeeLink` varchar(150) NOT NULL,
   `Product_LazadaLink` varchar(150) NOT NULL,
   `Product_BestSeller` int(11) NOT NULL,
@@ -167,13 +168,13 @@ CREATE TABLE `product_tbl` (
 -- Dumping data for table `product_tbl`
 --
 
-INSERT INTO `product_tbl` (`Product_ID`, `Product_Name`, `Product_Desc`, `Product_Ingredients`, `Product_Shelflife`, `Product_Weight`, `Product_Price`, `Product_ShopeeLink`, `Product_LazadaLink`, `Product_BestSeller`, `Product_Category_ID`) VALUES
-(6, 'Special Durian Delight Yema Candy', 'The Original Lola Abons Davao | Durian delight is a soft and chewy sweet durian', 'Durian, Milk & Sugar', '24 Months', '210', 254, 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 1, 4),
-(7, 'Special Durian Yema ', 'The Original Lola Abons Davao | Durian delight is a soft and chewy sweet durian', 'Durian, Milk & Sugar', '24 Months', '210', 200, 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 1, 2),
-(8, 'Special Durian Cubes Candy', 'Soft and rich, Durian Delight brings the best of durian in every bite.', 'Durian, Milk & Sugar', '24 Months', '70', 95, 'https://shopee.ph/Lola-Abons-Davao-Special-Durian-Cubes-Candy-25pcs-70grams-i.929668373.24770342503?sp_atk=0f489ae0-ef38-40d5-a5cf-055d232c8874', 'https://shopee.ph/Lola-Abons-Davao-Special-Durian-Cubes-Candy-25pcs-70grams-i.929668373.24770342503?sp_atk=0f489ae0-ef38-40d5-a5cf-055d232c8874', 1, 1),
-(9, 'Special Durian Special Tart', 'Durian Delight is a chewy, sweet treat that melts in your mouth', 'Durian, Milk & Sugar', '24 Months', '80', 101, 'https://shopee.ph/The-Original-Lola-Abons-Davao-Durian-Special-Tart-5pcs-80-grams-i.929668373.22615452393', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Durian-Special-Tart-5pcs-80-grams-i.929668373.22615452393', 1, 1),
-(10, 'Special Mangosteen Piaya Delicacies', 'Durian Delight Biscuit: a crunchy treat infused with rich, creamy durian goodnes', 'Durian, Milk & Sugar', '24 Months', '100', 193, 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Mangosteen-Piaya-Delicacies-8pcs-100grams-i.929668373.22615452449?sp_atk=b3e3d42b-5ec8-4737-83', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Mangosteen-Piaya-Delicacies-8pcs-100grams-i.929668373.22615452449?sp_atk=b3e3d42b-5ec8-4737-83', 1, 5),
-(11, 'Special Durian Preserved Jam Small Bottle', 'Smooth, rich, and bursting with durian flavor—spread the delight on every bite.', 'Durian, Milk, Sugar', '24 Months', '430', 334, 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Preserved-Jam-Small-Bottle-i.929668373.19970194143?sp_atk=8ed45679-0030-4014-a533-96ec5', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Preserved-Jam-Small-Bottle-i.929668373.19970194143?sp_atk=8ed45679-0030-4014-a533-96ec5', 1, 4);
+INSERT INTO `product_tbl` (`Product_ID`, `Product_Name`, `Product_Desc`, `Product_Ingredients`, `Product_Shelflife`, `Product_Weight`, `Product_Price`, `Product_Price_From`, `Product_ShopeeLink`, `Product_LazadaLink`, `Product_BestSeller`, `Product_Category_ID`) VALUES
+(6, 'Special Durian Delight Yema Candy', 'The Original Lola Abons Davao | Durian delight is a soft and chewy sweet durian', 'Durian, Milk & Sugar', '24 Months', '210', 254, '', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 1, 4),
+(7, 'Special Durian Yema ', 'The Original Lola Abons Davao | Durian delight is a soft and chewy sweet durian', 'Durian, Milk & Sugar', '24 Months', '210', 200, '', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Delight-Yema-Candy-36-pcs-210-grams-i.929668373.23015452824', 1, 2),
+(8, 'Special Durian Cubes Candy', 'Soft and rich, Durian Delight brings the best of durian in every bite.', 'Durian, Milk & Sugar', '24 Months', '70', 95, '', 'https://shopee.ph/Lola-Abons-Davao-Special-Durian-Cubes-Candy-25pcs-70grams-i.929668373.24770342503?sp_atk=0f489ae0-ef38-40d5-a5cf-055d232c8874', 'https://shopee.ph/Lola-Abons-Davao-Special-Durian-Cubes-Candy-25pcs-70grams-i.929668373.24770342503?sp_atk=0f489ae0-ef38-40d5-a5cf-055d232c8874', 1, 1),
+(9, 'Special Durian Special Tart', 'Durian Delight is a chewy, sweet treat that melts in your mouth', 'Durian, Milk & Sugar', '24 Months', '80', 101, '', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Durian-Special-Tart-5pcs-80-grams-i.929668373.22615452393', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Durian-Special-Tart-5pcs-80-grams-i.929668373.22615452393', 1, 1),
+(10, 'Special Mangosteen Piaya Delicacies', 'Durian Delight Biscuit: a crunchy treat infused with rich, creamy durian goodnes', 'Durian, Milk & Sugar', '24 Months', '100', 193, '250', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Mangosteen-Piaya-Delicacies-8pcs-100grams-i.929668373.22615452449?sp_atk=b3e3d42b-5ec8-4737-83', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Mangosteen-Piaya-Delicacies-8pcs-100grams-i.929668373.22615452449?sp_atk=b3e3d42b-5ec8-4737-83', 1, 5),
+(11, 'Special Durian Preserved Jam Small Bottle', 'Smooth, rich, and bursting with durian flavor—spread the delight on every bite.', 'Durian, Milk, Sugar', '24 Months', '430', 334, '', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Preserved-Jam-Small-Bottle-i.929668373.19970194143?sp_atk=8ed45679-0030-4014-a533-96ec5', 'https://shopee.ph/The-Original-Lola-Abons-Davao-Special-Durian-Preserved-Jam-Small-Bottle-i.929668373.19970194143?sp_atk=8ed45679-0030-4014-a533-96ec5', 1, 4);
 
 -- --------------------------------------------------------
 
