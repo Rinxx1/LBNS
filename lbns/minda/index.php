@@ -145,14 +145,22 @@
     <div class="container">
       <div class="row">
         <!-- Left Side: Logo & Description -->
-        <div class="col-lg-5 col-md-15 text-center">
+        <div class="col-lg-4 col-md-15 text-center">
           <img src="../../Images/logo.png" alt="Lola Abon's Logo" class="footer-logo">
           <p class="footer-tagline">Authentic durian treats crafted with love.</p>
           <p class="footer-copyright">© 2025. All rights reserved.</p>
-        </div>
+        </div>         <!-- Tools -->
+          <div class="col-lg-2 col-md-6 mb-4">
+            <h5 class="fw-bold mb-3">Update Password?</h5>
+            <ul class="list-unstyled">
+             <li class="mb-2">
+                <i class="bi bi-key-fill me-2 text-warning"></i>
+                <a href="#" id="changePasswordBtn" class="text-light text-decoration-none">Change Password</a>
+              </li>
+          </div>
 
           <!-- Contact / Report a Bug -->
-          <div class="col-lg-4 col-md-6 mb-4">
+          <div class="col-lg-3 col-md-6 mb-4">
             <h5 class="fw-bold mb-3">Report a Problem</h5>
             <ul class="list-unstyled">
               <li class="mb-2">
@@ -163,15 +171,15 @@
                 <i class="bi bi-bug-fill me-2 text-danger"></i>
                 <a href="https://forms.gle/your-google-form-link" target="_blank" class="text-light text-decoration-none">Bug Report Form</a>
               </li>
-              <li>
+              <li class="mb-2">
                 <i class="bi bi-chat-dots-fill me-2 text-info"></i>
                 <a href="https://m.me/lolaabons" target="_blank" class="text-light text-decoration-none">Chat via Messenger</a>
               </li>
             </ul>
           </div>
-
+     
             <!-- Stay Connected -->
-            <div class="col-lg-2 col-md-12 text-center text-lg-start">
+            <div class="col-lg-3 col-md-12 text-center text-lg-start">
               <h5 class="fw-bold mb-3">Stay Connected</h5>
               <div class="d-flex justify-content-center justify-content-lg-start gap-4">
                 <a href="https://facebook.com/lolaabons1950" target="_blank" class="text-light fs-4" aria-label="Facebook">
@@ -187,12 +195,13 @@
             </div>
           </div>
         </div>
-      </footer>
+      </footer>    
     <script src="scripts/dashboard/fetch.js"></script>
     <script src="scripts/dashboard/fetchRecent.js"></script>
     <script src="scripts/common/logout.js"></script>
+    <script src="../scripts/change-password.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="scripts/nav-hide.js"></script>
 </body>
 </html>
