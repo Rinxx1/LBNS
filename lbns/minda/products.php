@@ -7,7 +7,8 @@
     <title>Lola Abon's - Original Durian Candy from Davao, Philippines</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../css/style.css" rel="stylesheet">
+    <link href="../../css/base-layout.css" rel="stylesheet">
+    <link href="../../css/pages/da.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!--Favicon -->
@@ -87,6 +88,7 @@
         max-height: calc(90vh - 140px) !important;
     }
 }
+
 </style>
     <script>
 // Aggressive scrolling fix with multiple approaches

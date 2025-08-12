@@ -63,7 +63,14 @@
 
     <?php elseif ($pageName === 'about-us'): ?>
     
-
+    <?php elseif ($pageName === 'shop'): ?>
+    <script src="js/search.js"></script>
+    
+    <?php elseif ($pageName === 'contact-us'): ?>
+    
+    <?php elseif ($pageName === 'product-details'): ?>
+    <script src="js/thumbnail-img.js"></script>
+    
     <?php endif; ?>
     
     <script src="js/loading-wrapper.js"></script>

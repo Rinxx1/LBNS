@@ -46,11 +46,19 @@
     <!-- About Us Page Specific CSS -->
     <link href="css/pages/about-us.css" rel="stylesheet">
 
-    <?php elseif ($pageName === 'services'): ?>
+    <?php elseif ($pageName === 'shop'): ?>
 
-    <?php elseif ($pageName === 'services'): ?>
-    
-    <?php elseif ($pageName === 'services'): ?>
+    <?php elseif ($pageName === 'contact-us'): ?>
+    <!-- Contact Us Page Specific CSS -->
+    <link href="css/pages/contact-us.css" rel="stylesheet">
+
+    <?php elseif ($pageName === 'blogs'): ?>
+    <!-- Blogs Page Specific CSS -->
+    <link href="css/pages/blogs.css" rel="stylesheet">
+
+    <?php elseif ($pageName === 'product-details'): ?>
+    <!-- Product Details Page Specific CSS -->
+    <link href="css/pages/product-details.css" rel="stylesheet">
 
     <?php endif; ?>
 </head>

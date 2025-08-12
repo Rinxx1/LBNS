@@ -21,12 +21,12 @@ main .container {
 }
 
 .navbar-brand img {
-    height: 100px;
+    height: 70px;
 }
 
 .navbar-nav .nav-link {
     color: white !important;
-    font-weight: 500;
+    font-weight: 300;
     margin: 0 10px;
     font-size: 18px;
     transition: color 0.3s ease;
@@ -344,3 +344,28 @@ main .container {
 }
 
 
+.section-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #28a745, #20c997);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.section-subtitle {
+    color: #666;
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .section-subtitle {
+        font-size: 1rem;
+        padding: 0 15px;
+    }
+}

@@ -16,13 +16,14 @@ include 'includes/header.php';
 <!--Hero Section -->
 <section class="hero-section">
     <div class="container">
+      <br>
         <div class="row align-items-center">
             <!-- Left Side Content -->
             <div class="col-lg-6 mb-5 mb-lg-0">
                 <div class="hero-content text-white">
                     <img src="Images/logo.png" alt="Lola Abon's Logo" class="mobile-hero-logo mb-4">
                     <h1 class="hero-title">Taste the Legacy of Davao's Finest Durian Delicacies</h1>
-                    <p class="hero-subtitle">Since 1950</p>
+                    <p class="hero-subtitle">Since 1950</p><br>
                     <a href="shop" class="hero-btn">Explore Our Sweets</a>
                 </div>
             </div>
