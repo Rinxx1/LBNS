@@ -1,16 +1,16 @@
 <!-- Footer Section -->
 <footer class="footer">
-    <div class="container">
+    <div class="container">        
         <div class="row">
-            <!-- Left Side: Logo & Description -->
-            <div class="col-lg-4 col-md-15 text-center">
+            <!-- Left Side: Logo & Description - Order last on mobile -->
+            <div class="col-lg-4 col-md-15 text-center order-lg-1 order-5">
                 <img src="Images/logo.png" alt="Lola Abon's Logo" class="footer-logo">
                 <p class="footer-tagline">Authentic durian treats crafted with love.</p>
                 <p class="footer-copyright">© 2025. All rights reserved.</p>
             </div>
 
             <!-- Sweets & Treats Column -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-lg-2 order-1">
                 <h4 class="footer-title">Sweets & Treats</h4>
                 <ul class="footer-links">
                     <li><a href="shop?category=durian">Durian Yema</a></li>
@@ -22,7 +22,7 @@
             </div>
 
             <!-- Quick Links Column -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-lg-3 order-2">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
                     <li><a href="shop">Shop</a></li>
@@ -33,7 +33,7 @@
             </div>
 
             <!-- Follow Us Column -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-lg-4 order-3">
                 <h4 class="footer-title">Follow Us</h4>
                 <ul class="footer-links">
                     <li><a href="https://www.facebook.com/lolaabons1950">Facebook</a></li>
@@ -43,7 +43,7 @@
             </div>
 
             <!-- Buy Online Column (Properly Aligned) -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-lg-5 order-4">
                 <h4 class="footer-title">Buy Online</h4>
                 <ul class="footer-links">
                     <li><a href="https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc" target="_blank">Shop on Lazada</a></li>
