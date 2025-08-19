@@ -2,8 +2,6 @@
 header('Content-Type: application/json'); // Ensure correct response type
 require '../../../connection/db.php';
 
-
-
 $response = ["status" => "error", "message" => "Unknown error occurred."];
 
 if ($_SERVER["REQUEST_METHOD"] === "POST") {
@@ -23,7 +21,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 
 
     try {
-        $stmt = $conn->prepare("INSERT INTO product_tbl (
+        $stmt = $conn->prepare("INSERT INTO product_tbl(
             Product_Name, Product_Desc, Product_Ingredients, Product_Shelflife, Product_Weight,
             Product_Price,Product_Price_From, Product_ShopeeLink, Product_LazadaLink, Product_BestSeller, Product_Category_ID
         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)");

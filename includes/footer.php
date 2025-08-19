@@ -2,15 +2,8 @@
 <footer class="footer">
     <div class="container">
         <div class="row">
-            <!-- Left Side: Logo & Description -->
-            <div class="col-lg-4 col-md-15 text-center">
-                <img src="Images/logo.png" alt="Lola Abon's Logo" class="footer-logo">
-                <p class="footer-tagline">Authentic durian treats crafted with love.</p>
-                <p class="footer-copyright">© 2025. All rights reserved.</p>
-            </div>
-
             <!-- Sweets & Treats Column -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-1 order-lg-2">
                 <h4 class="footer-title">Sweets & Treats</h4>
                 <ul class="footer-links">
                     <li><a href="shop?category=durian">Durian Yema</a></li>
@@ -22,7 +15,7 @@
             </div>
 
             <!-- Quick Links Column -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-2 order-lg-3">
                 <h4 class="footer-title">Quick Links</h4>
                 <ul class="footer-links">
                     <li><a href="shop">Shop</a></li>
@@ -33,7 +26,7 @@
             </div>
 
             <!-- Follow Us Column -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-3 order-lg-4">
                 <h4 class="footer-title">Follow Us</h4>
                 <ul class="footer-links">
                     <li><a href="https://www.facebook.com/lolaabons1950">Facebook</a></li>
@@ -43,12 +36,19 @@
             </div>
 
             <!-- Buy Online Column (Properly Aligned) -->
-            <div class="col-lg-2 col-md-4">
+            <div class="col-lg-2 col-md-4 order-4 order-lg-5">
                 <h4 class="footer-title">Buy Online</h4>
                 <ul class="footer-links">
                     <li><a href="https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc" target="_blank">Shop on Lazada</a></li>
                     <li><a href="https://shopee.ph/lolaabons" target="_blank">Shop on Shopee</a></li>
                 </ul>
+            </div>
+
+            <!-- Left Side: Logo & Description (Moved to bottom on mobile) -->
+            <div class="col-lg-4 col-md-12 text-center order-5 order-lg-1">
+                <img src="Images/logo.png" alt="Lola Abon's Logo" class="footer-logo">
+                <p class="footer-tagline">Authentic durian treats crafted with love.</p>
+                <p class="footer-copyright">© 2025. All rights reserved.</p>
             </div>
         </div>
     </div>
@@ -59,7 +59,7 @@
     <!-- Swiper JS -->
     <script src="js/others/swiper-bundle.min.js"></script>
     <script src="js/products-slider.js"></script>
-    <script src="js/loading-wrapper.js"></script>
+    <script src="js/hero-slider.js"></script>
 
     <?php elseif ($pageName === 'about-us'): ?>
     

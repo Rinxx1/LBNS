@@ -4,7 +4,7 @@ document.getElementById("addProductForm").addEventListener("submit", function (e
   const form = document.getElementById("addProductForm");
   const formData = new FormData(form);
 
-  fetch('././php/products/add.php', {
+  fetch('./php/products/add.php', {
     method: 'POST',
     body: formData
   })
