@@ -15,7 +15,7 @@
     overflow: hidden;
     background-image:
         linear-gradient(to right, rgba(0, 0, 0, 0.72) 30%, rgba(0, 0, 0, 0.5) 100%),
-        url('../Images/hero-bg.png');
+        url('../Images/hero-section/hero-bg.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

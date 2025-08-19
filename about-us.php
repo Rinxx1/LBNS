@@ -26,7 +26,7 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="story-image-container">
-                        <img src="Images/1test.png" alt="Lola Abon's Legacy" class="img-fluid story-image hover-effect">
+                        <img src="Images/about-us/1.png" alt="Lola Abon's Legacy" class="img-fluid story-image hover-effect">
                         <div class="image-overlay">
                             <div class="overlay-badge">Est. 1950</div>
                         </div>
@@ -65,7 +65,7 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="story-image-container">
-                        <img src="Images/2test.png" alt="Durian Products" class="img-fluid story-image hover-effect">
+                        <img src="Images/about-us/2.png" alt="Durian Products" class="img-fluid story-image hover-effect">
                         <div class="image-overlay">
                             <div class="overlay-badge">Signature Recipes</div>
                         </div>
@@ -104,7 +104,7 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="story-image-container">
-                        <img src="Images/5test.png" alt="Store Front" class="img-fluid story-image hover-effect">
+                        <img src="Images/about-us/5.png" alt="Store Front" class="img-fluid story-image hover-effect">
                         <div class="image-overlay">
                             <div class="overlay-badge">Expansion</div>
                         </div>
@@ -147,7 +147,7 @@ include 'includes/header.php';
                 </div>
                 <div class="col-lg-6 mb-4 mb-lg-0">
                     <div class="story-image-container">
-                        <img src="Images/3test.png" alt="Family" class="img-fluid story-image hover-effect">
+                        <img src="Images/about-us/3.png" alt="Family" class="img-fluid story-image hover-effect">
                         <div class="image-overlay">
                             <div class="overlay-badge">Family Legacy</div>
                         </div>
@@ -192,7 +192,7 @@ include 'includes/header.php';
         <!-- Enhanced Full Width Landscape Image -->
         <div class="mt-5 mb-5">
             <div class="hero-showcase">
-                <img src="Images/4test.png" alt="Lola Abon's Team or Product Display"
+                <img src="Images/about-us/4.png" alt="Lola Abon's Team or Product Display"
                     class="img-fluid w-100 hero-showcase-image">
                 <div class="hero-showcase-overlay">
                     <div class="hero-showcase-content">

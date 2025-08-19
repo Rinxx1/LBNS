@@ -5,7 +5,7 @@ require 'lbns/connection/db.php';
 $query = "SELECT i.Index_Image_Loc, i.Index_Description, p.Product_Name, p.Product_Price, p.Product_ID
           FROM product_index_tbl i
           JOIN product_tbl p ON i.Product_ID = p.Product_ID
-          ORDER BY i.Index_ID DESC LIMIT 10";
+          ORDER BY i.Index_ID DESC LIMIT 5";
 
 $result = $conn->query($query);
 

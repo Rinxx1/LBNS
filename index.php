@@ -34,28 +34,25 @@ include 'includes/header.php';
                     <div class="swiper heroSwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
-                                <img src="Images/hero.jpg" alt="Durian Product" class="hero-slide-img" />
-                                <div class="slide-content">
-                                    <h3 class="slide-title">Signature Durian Candy</h3>
-                                    <p class="slide-description">Our most beloved treat, handcrafted using traditional
-                                        recipes since 1950.</p>
-                                </div>
+                              <img src="Images/hero-section/hero-slider/Unli Durian.jpg" alt="Unli Durian" class="hero-slide-img" />
+                              <div class="slide-content">
+                                <h3 class="slide-title">Unli Durian</h3>
+                                <p class="slide-description">Enjoy unlimited durian treats, a true celebration of Davao’s iconic fruit.</p>
+                              </div>
                             </div>
                             <div class="swiper-slide">
-                                <img src="Images/hero1.jpg" alt="Durian Product 1" class="hero-slide-img" />
-                                <div class="slide-content">
-                                    <h3 class="slide-title">Premium Durian Yema</h3>
-                                    <p class="slide-description">Rich, creamy delights made from Davao's finest durian
-                                        fruit.</p>
-                                </div>
+                              <img src="Images/hero-section/hero-slider/Parade.jpg" alt="Parade" class="hero-slide-img" />
+                              <div class="slide-content">
+                                <h3 class="slide-title">Parade</h3>
+                                <p class="slide-description">Experience the festive spirit with our parade-inspired durian delicacies.</p>
+                              </div>
                             </div>
                             <div class="swiper-slide">
-                                <img src="Images/hero2.jpg" alt="Durian Product 2" class="hero-slide-img" />
-                                <div class="slide-content">
-                                    <h3 class="slide-title">Artisanal Gift Packs</h3>
-                                    <p class="slide-description">Perfect for sharing a taste of Mindanao with your loved
-                                        ones.</p>
-                                </div>
+                              <img src="Images/hero-section/hero-slider/Kadayawan.jpg" alt="Kadayawan" class="hero-slide-img" />
+                              <div class="slide-content">
+                                <h3 class="slide-title">Kadayawan</h3>
+                                <p class="slide-description">Celebrate Kadayawan with special durian creations made for the festival season.</p>
+                              </div>
                             </div>
                         </div>
 
@@ -170,7 +167,7 @@ include 'includes/header.php';
                     <!-- Mobile Carousel/Image -->
                     <div class="mobile-store-showcase d-lg-none">
                         <div class="mobile-store-card">
-                            <img src="Images/Storesection.jpg" alt="Customers at Lola Abon's" class="stores-image-mobile">
+                            <img src="Images/index/Store-section.jpg" alt="Customers at Lola Abon's" class="stores-image-mobile">
                             <div class="mobile-store-overlay">
                                 <div class="store-badge">
                                     <i class="bi bi-geo-alt-fill"></i>
@@ -192,7 +189,7 @@ include 'includes/header.php';
                     
                     <!-- Desktop Image (Hidden on Mobile) -->
                     <div class="d-none d-lg-block">
-                        <img src="Images/Storesection.jpg" alt="Customers buying durian treats at Lola Abon's" class="stores-image">
+                        <img src="Images/index/Store-section.jpg" alt="Customers buying durian treats at Lola Abon's" class="stores-image">
                         <div class="stores-stats">
                             <div class="stat-item">
                                 <h3>3</h3>
@@ -316,7 +313,7 @@ include 'includes/header.php';
       <div class="col-lg-4 col-md-6">
         <div class="delicacy-showcase-card">
           <div class="delicacy-image-wrapper">
-            <img src="Images/hero2.jpg" alt="Chewy Candy & Laces" class="delicacy-showcase-img">
+            <img src="Images/Delicacies/Chewy.jpg" alt="Chewy Candy & Laces" class="delicacy-showcase-img">
             <div class="delicacy-overlay">
               <div class="delicacy-category-badge">
                 <i class="bi bi-heart-fill"></i>
@@ -340,7 +337,7 @@ include 'includes/header.php';
       <div class="col-lg-4 col-md-6">
         <div class="delicacy-showcase-card">
           <div class="delicacy-image-wrapper">
-            <img src="Images/hero4.jpg" alt="Jam Marmalade" class="delicacy-showcase-img">
+            <img src="Images/Delicacies/Jam.jpg" alt="Jam Marmalade" class="delicacy-showcase-img">
             <div class="delicacy-overlay">
               <div class="delicacy-category-badge">
                 <i class="bi bi-droplet-fill"></i>
@@ -364,7 +361,7 @@ include 'includes/header.php';
       <div class="col-lg-4 col-md-6">
         <div class="delicacy-showcase-card">
           <div class="delicacy-image-wrapper">
-            <img src="Images/hero1.jpg" alt="Chocolate Biscuits" class="delicacy-showcase-img">
+            <img src="Images/Delicacies/Tart.jpg" alt="Chocolate Biscuits" class="delicacy-showcase-img">
             <div class="delicacy-overlay">
               <div class="delicacy-category-badge">
                 <i class="bi bi-cookie"></i>
@@ -388,7 +385,7 @@ include 'includes/header.php';
       <div class="col-lg-4 col-md-6">
         <div class="delicacy-showcase-card">
           <div class="delicacy-image-wrapper">
-            <img src="Images/hero1.jpg" alt="Sticks & Shapes Biscuits" class="delicacy-showcase-img">
+            <img src="Images/Delicacies/Sticks.jpg" alt="Sticks & Shapes Biscuits" class="delicacy-showcase-img">
             <div class="delicacy-overlay">
               <div class="delicacy-category-badge">
                 <i class="bi bi-star-fill"></i>
@@ -412,7 +409,7 @@ include 'includes/header.php';
       <div class="col-lg-4 col-md-6">
         <div class="delicacy-showcase-card">
           <div class="delicacy-image-wrapper">
-            <img src="Images/hero3.jpg" alt="Ready-To-Drink Coffee" class="delicacy-showcase-img">
+            <img src="Images/Delicacies/Coffee.jpg" alt="Ready-To-Drink Coffee" class="delicacy-showcase-img">
             <div class="delicacy-overlay">
               <div class="delicacy-category-badge">
                 <i class="bi bi-cup-hot-fill"></i>
@@ -436,7 +433,7 @@ include 'includes/header.php';
       <div class="col-lg-4 col-md-6">
         <div class="delicacy-showcase-card">
           <div class="delicacy-image-wrapper">
-            <img src="Images/hero2.jpg" alt="Gifting & Festive Sweets" class="delicacy-showcase-img">
+            <img src="Images/Delicacies/Assorted.jpg" alt="Gifting & Festive Sweets" class="delicacy-showcase-img">
             <div class="delicacy-overlay">
               <div class="delicacy-category-badge">
                 <i class="bi bi-gift-fill"></i>
@@ -484,7 +481,7 @@ include 'includes/header.php';
                         <i class="bi bi-heart-fill service-icon"></i>
                     </div>
                     <div class="service-image-container">
-                        <img src="Images/prodservice1.png" alt="Handcrafted Durian Sweets" class="service-image-modern">
+                        <img src="Images/services/prodservice1.png" alt="Handcrafted Durian Sweets" class="service-image-modern">
                     </div>
                     <div class="service-content-modern">
                         <h3>Handcrafted Durian Sweets</h3>
@@ -504,7 +501,7 @@ include 'includes/header.php';
                         <i class="bi bi-boxes service-icon"></i>
                     </div>
                     <div class="service-image-container">
-                        <img src="Images/prodservice2.png" alt="Wholesale & Bulk Orders" class="service-image-modern">
+                        <img src="Images/services/prodservice2.png" alt="Wholesale & Bulk Orders" class="service-image-modern">
                     </div>
                     <div class="service-content-modern">
                         <h3>Wholesale & Bulk Orders</h3>
@@ -524,7 +521,7 @@ include 'includes/header.php';
                         <i class="bi bi-gift-fill service-icon"></i>
                     </div>
                     <div class="service-image-container">
-                        <img src="Images/prodservice3.png" alt="Custom Packaging & Gift Packs" class="service-image-modern">
+                        <img src="Images/services/prodservice3.png" alt="Custom Packaging & Gift Packs" class="service-image-modern">
                     </div>
                     <div class="service-content-modern">
                         <h3>Custom Packaging & Gift Packs</h3>
@@ -544,7 +541,7 @@ include 'includes/header.php';
                         <i class="bi bi-airplane-fill service-icon"></i>
                     </div>
                     <div class="service-image-container">
-                        <img src="Images/prodservice4.png" alt="Pasalubong & Souvenir Support" class="service-image-modern">
+                        <img src="Images/services/prodservice4.png" alt="Pasalubong & Souvenir Support" class="service-image-modern">
                     </div>
                     <div class="service-content-modern">
                         <h3>Pasalubong & Souvenir Support</h3>
@@ -564,7 +561,7 @@ include 'includes/header.php';
                         <i class="bi bi-shop service-icon"></i>
                     </div>
                     <div class="service-image-container">
-                        <img src="Images/prodservice5.png" alt="Retail Storefronts" class="service-image-modern">
+                        <img src="Images/services/prodservice5.png" alt="Retail Storefronts" class="service-image-modern">
                     </div>
                     <div class="service-content-modern">
                         <h3>Retail Storefronts</h3>
@@ -584,7 +581,7 @@ include 'includes/header.php';
                         <i class="bi bi-cart-fill service-icon"></i>
                     </div>
                     <div class="service-image-container">
-                        <img src="Images/prodservice6.png" alt="Local & Online Selling" class="service-image-modern">
+                        <img src="Images/services/prodservice6.png" alt="Local & Online Selling" class="service-image-modern">
                     </div>
                     <div class="service-content-modern">
                         <h3>Online & Digital Commerce</h3>

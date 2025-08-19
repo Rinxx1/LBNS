@@ -47,7 +47,9 @@
     <link href="css/pages/about-us.css" rel="stylesheet">
 
     <?php elseif ($pageName === 'shop'): ?>
-
+    <!-- Shop Page Specific CSS -->
+    <link href="css/pages/shop.css" rel="stylesheet">
+    
     <?php elseif ($pageName === 'contact-us'): ?>
     <!-- Contact Us Page Specific CSS -->
     <link href="css/pages/contact-us.css" rel="stylesheet">
@@ -60,6 +62,9 @@
     <!-- Product Details Page Specific CSS -->
     <link href="css/pages/product-details.css" rel="stylesheet">
 
+    <?php elseif ($pageName === 'store-locator'): ?>
+    <!-- Store Locator Page Specific CSS -->
+    <link href="css/pages/store-locator.css" rel="stylesheet">
     <?php endif; ?>
 </head>
 

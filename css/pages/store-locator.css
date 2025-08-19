@@ -1,0 +1,29 @@
+  
+/* Store Locator */
+.store-locator-section {
+    background-color: #f9f9f9;
+}
+
+.branch-wrapper {
+    border-left: 6px solid #28a745;
+    background: #fff;
+    transition: 0.3s;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+}
+
+.branch-map {
+    width: 100%;
+    height: 300px;
+    border: 0;
+  }
+  
+  .branch-card {
+    padding: 20px;
+  }
+  
+  .map-wrapper {
+    width: 100%;
+    height: auto;
+  }

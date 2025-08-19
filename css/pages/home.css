@@ -1631,61 +1631,7 @@
 }
 
 
-
-/* Store Locator */
-.store-locator-section {
-    background-color: #f9f9f9;
-}
-
-.branch-wrapper {
-    border-left: 6px solid #28a745;
-    background: #fff;
-    transition: 0.3s;
-    border-radius: 16px;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    overflow: hidden;
-}
-
-.branch-map {
-    width: 100%;
-    height: 300px;
-    border: 0;
-  }
-  
-  .branch-card {
-    padding: 20px;
-  }
-  
-  .map-wrapper {
-    width: 100%;
-    height: auto;
-  }
-
-
-  /*Shop Section*/
-  .shop-section .card {
-      border-radius: 16px;
-      overflow: hidden;
-      transition: transform 0.3s ease;
-  }
-
-  .shop-section .card:hover {
-      transform: translateY(-5px);
-  }
-
-  .shop-section img {
-      height: 240px;
-      object-fit: cover;
-  }
-  .shop-section h2{
-     font-size: 2.5rem;
-     color: #111;
-    margin-bottom: 50px;
-}
-  .shop-section {
-      background-color: #f8f9fa;
-  }
-
+/*  Featured Products Section */
   .product-card img {
       height: 250px;
       object-fit: cover;
