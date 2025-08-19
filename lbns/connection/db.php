@@ -19,7 +19,7 @@ if (!function_exists('loadEnv')) {
             if (!array_key_exists($name, $_ENV)) {
                 $_ENV[$name] = $value;
             }
-        }
+        } 
     }
 }
 
