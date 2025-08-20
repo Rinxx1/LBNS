@@ -22,7 +22,7 @@ include 'includes/header.php';
     </div>
     
     <div class="container">
-        <div class="row align-items-center hero-row">
+        <div class="row align-items-center min-vh-100">
             <!-- Left Side Content -->
             <div class="col-lg-7 mb-5 mb-lg-0">
                 <div class="hero-content">
@@ -42,6 +42,12 @@ include 'includes/header.php';
                         <span class="title-accent">Durian Delicacies</span>
                     </h1>
                     
+                    <!-- Description -->
+                    <p class="hero-description">
+                        From Lola Abon's humble kitchen to becoming the Philippines' premier durian confectionery. 
+                        Experience authentic flavors crafted with 70+ years of tradition and passion.
+                    </p>
+                    
                     <!-- Hero Features -->
                     <div class="hero-features">
                         <div class="feature-item">
@@ -50,7 +56,11 @@ include 'includes/header.php';
                         </div>
                         <div class="feature-item">
                             <i class="bi bi-heart-fill"></i>
-                            <span>Family Heritage Since 1950</span>
+                            <span>Family Heritage</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="bi bi-geo-alt-fill"></i>
+                            <span>Authentic Davao Durian</span>
                         </div>
                     </div>
                     
@@ -72,7 +82,7 @@ include 'includes/header.php';
             <div class="col-lg-5">
                 <div class="hero-right-content">
                     <!-- Business Hours Card -->
-                    <div class="business-hours-card d-none d-md-block">
+                    <div class="business-hours-card">
                         <div class="card-header">
                             <h3><i class="bi bi-clock"></i> Business Hours</h3>
                             <div class="status-badge open">
@@ -92,8 +102,8 @@ include 'includes/header.php';
                         </div>
                     </div>
                     
-                    <!-- Product Showcase Slider - Hidden on Mobile -->
-                    <div class="hero-product-showcase d-none d-md-block">
+                    <!-- Product Showcase Slider -->
+                    <div class="hero-product-showcase">
                         <div class="showcase-header">
                             <h4>Featured Products</h4>
                             <div class="showcase-nav">
@@ -142,7 +152,7 @@ include 'includes/header.php';
                     </div>
                     
                     <!-- Online Store Links -->
-                    <div class="online-stores d-none d-md-block">
+                    <div class="online-stores">
                         <h5>Shop Online</h5>
                         <div class="store-links">
                             <a href="https://shopee.ph/lolaabons" target="_blank" class="store-link shopee">

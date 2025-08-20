@@ -1,7 +1,6 @@
-
-  
 /*Products Details Page*/
 /* Product Details Specific Styles - Professional E-commerce Design */
+
 .pd-product-details {
     padding: 100px 0 80px;
     background: #ffffff;
@@ -832,5 +831,207 @@
         width: 30px;
         height: 30px;
         font-size: 18px;
+    }
+}
+
+/* =============================================== */
+/* MOBILE OVERFLOW FIX - PREVENT HORIZONTAL SCROLL */
+/* =============================================== */
+
+@media (max-width: 768px) {
+    /* Prevent horizontal scrolling on product details page only */
+    .pd-product-details {
+        overflow-x: hidden;
+        max-width: 100%;
+    }
+
+    /* Mobile-specific box-sizing for product details page only */
+    .pd-product-details * {
+        box-sizing: border-box;
+        max-width: 100%;
+    }
+    
+    /* Container constraints for mobile - product details page only */
+    .pd-product-details .container, 
+    .pd-product-details .container-fluid, 
+    .pd-product-details .row, 
+    .pd-product-details .col, 
+    .pd-product-details .col-lg-6, 
+    .pd-product-details .col-md-6, 
+    .pd-product-details .col-sm-12 {
+        max-width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        overflow-x: hidden;
+    }
+    
+    /* Product gallery mobile fixes */
+    .pd-product-gallery {
+        width: 100%;
+        max-width: 100%;
+        overflow: hidden;
+    }
+    
+    .pd-main-image-container {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px;
+        margin-left: 0;
+        margin-right: 0;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    
+    #pd-mainProductImage {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: 250px;
+        object-fit: contain;
+    }
+    
+    /* Thumbnail gallery mobile */
+    .pd-thumbnail-gallery {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 5px;
+        justify-content: flex-start;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+    
+    .pd-thumbnail-gallery::-webkit-scrollbar {
+        display: none;
+    }
+    
+    .pd-thumbnail-img {
+        flex-shrink: 0;
+        width: 60px;
+        height: 60px;
+        margin-right: 8px;
+    }
+    
+    /* Product info mobile */
+    .pd-product-info {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        overflow-wrap: break-word;
+        word-break: break-word;
+    }
+    
+    .pd-product-title {
+        width: 100%;
+        max-width: 100%;
+        font-size: 1.4rem;
+        line-height: 1.4;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+        hyphens: auto;
+    }
+    
+    /* Price section mobile */
+    .pd-price-section {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px 15px;
+        margin: 0 0 20px 0;
+        box-sizing: border-box;
+    }
+    
+    .pd-price-row {
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .pd-price-group {
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    
+    .pd-current-price {
+        font-size: 1.6rem;
+        max-width: 100%;
+    }
+    
+    .pd-badge-bestseller {
+        font-size: 11px;
+        padding: 6px 12px;
+        white-space: nowrap;
+        max-width: fit-content;
+    }
+    
+    /* Action buttons mobile */
+    .pd-action-buttons {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .pd-marketplace-buttons {
+        width: 100%;
+        max-width: 100%;
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    
+    .pd-btn-shopee,
+    .pd-btn-lazada {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    /* Details grid mobile */
+    .pd-product-details-grid {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+    
+    .pd-detail-item {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    
+    .pd-detail-value {
+        max-width: 60%;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+}
+
+/* Extra small mobile devices */
+@media (max-width: 576px) {
+    .pd-product-info {
+        padding: 0 10px;
+    }
+    
+    .pd-price-section {
+        padding: 18px 12px;
+    }
+    
+    .pd-action-buttons {
+        padding: 0 10px;
+    }
+    
+    .pd-product-details-grid {
+        padding: 0 10px;
     }
 }

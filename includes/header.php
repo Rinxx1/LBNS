@@ -3,7 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lola Abon's - Original Durian Candy from Davao, Philippines</title>
+    
+    <!-- SEO Meta Tags -->
+    <title>Lola Abon's - Original Durian Candy from Davao, Philippines | Premium Durian Treats</title>
+    <meta name="description" content="Discover authentic Filipino durian candies and treats from Lola Abon's. Premium quality durian yema, macaroons, and traditional sweets from Davao, Philippines. Order online now!">
+    <meta name="keywords" content="durian candy, Filipino sweets, Davao durian, durian yema, durian macaroons, Philippine delicacies, authentic Filipino treats, Lola Abon's, durian products, online Filipino store">
+    <meta name="author" content="Lola Abon's">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.lola-abons.com/">
+    <meta property="og:title" content="Lola Abon's - Original Durian Candy from Davao, Philippines">
+    <meta property="og:description" content="Authentic Filipino durian candies and treats. Premium quality durian yema, macaroons, and traditional sweets from Davao, Philippines.">
+    <meta property="og:image" content="https://www.lola-abons.com/Images/logo.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:site_name" content="Lola Abon's">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.lola-abons.com/">
+    <meta name="twitter:title" content="Lola Abon's - Original Durian Candy from Davao, Philippines">
+    <meta name="twitter:description" content="Authentic Filipino durian candies and treats. Premium quality durian yema, macaroons, and traditional sweets from Davao, Philippines.">
+    <meta name="twitter:image" content="https://www.lola-abons.com/Images/logo.png">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="geo.region" content="PH-DAV">
+    <meta name="geo.placename" content="Davao City, Philippines">
+    <meta name="geo.position" content="7.190708;125.455341">
+    <meta name="ICBM" content="7.190708, 125.455341">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://www.lola-abons.com/">
+    
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Lola Abon's",
+      "description": "Original Durian Candy from Davao, Philippines",
+      "url": "https://www.lola-abons.com/",
+      "logo": "https://www.lola-abons.com/Images/logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Davao City",
+        "addressCountry": "Philippines"
+      },
+      "sameAs": [
+        "https://www.facebook.com/lolaabons1950",
+        "https://www.instagram.com/lolaabons/",
+        "https://www.lazada.com.ph/shop/lola-abon-s-durian-candies-inc",
+        "https://shopee.ph/lolaabons"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Durian Products",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Durian Candy",
+              "description": "Authentic durian candy from Davao, Philippines"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Product",
+              "name": "Durian Yema",
+              "description": "Traditional Filipino durian yema treats"
+            }
+          }
+        ]
+      }
+    }
+    </script>
     
     <link href="css/others/bootstrap.min.css" rel="stylesheet">
       <!-- Home Page Specific CSS -->

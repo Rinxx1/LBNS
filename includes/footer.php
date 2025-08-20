@@ -59,6 +59,7 @@
     <script src="js/others/swiper-bundle.min.js"></script>
     <script src="js/products-slider.js"></script>
     <script src="js/hero-slider.js"></script>
+    <script src="js/hero-modern.js"></script>
 
     <?php elseif ($pageName === 'about-us'): ?>
     
