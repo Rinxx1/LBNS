@@ -4,28 +4,69 @@ document.addEventListener("DOMContentLoaded", () => {
     const zoomBadge = document.querySelector('.pd-zoom-badge');
   
     let lockedImage = mainImage.getAttribute('src'); // ✅ Use attribute value
+    
+    // ✅ Detect if device supports touch
+    const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+    
+    // ✅ Track if we're in a touch interaction
+    let touchStarted = false;
   
     thumbnails.forEach(thumb => {
       const imageSrc = thumb.getAttribute('data-image');
+      
+      // ✅ Touch event handlers for mobile
+      if (isTouchDevice) {
+        thumb.addEventListener('touchstart', (e) => {
+          touchStarted = true;
+          e.preventDefault(); // Prevent hover events
+        });
+        
+        thumb.addEventListener('touchend', (e) => {
+          if (touchStarted) {
+            e.preventDefault();
+            // Only change image on touch end (click equivalent)
+            lockedImage = imageSrc;
+            mainImage.setAttribute('src', lockedImage);
+            
+            thumbnails.forEach(img => img.classList.remove('active'));
+            thumb.classList.add('active');
+            
+            touchStarted = false;
+          }
+        });
+        
+        thumb.addEventListener('touchcancel', () => {
+          touchStarted = false;
+        });
+      } else {
+        // ✅ Mouse hover preview for desktop only
+        thumb.addEventListener('mouseenter', () => {
+          if (!touchStarted) {
+            mainImage.setAttribute('src', imageSrc);
+          }
+        });
+
+        // ✅ Revert only if different on desktop
+        thumb.addEventListener('mouseleave', () => {
+          if (!touchStarted) {
+            const currentSrc = mainImage.getAttribute('src');
+            if (currentSrc !== lockedImage) {
+              mainImage.setAttribute('src', lockedImage);
+            }
+          }
+        });
+      }
   
-      // ✅ Hover preview
-      thumb.addEventListener('mouseenter', () => {
-        mainImage.setAttribute('src', imageSrc);
-      });
-  
-      // ✅ Revert only if different
-      thumb.addEventListener('mouseleave', () => {
-        const currentSrc = mainImage.getAttribute('src');
-        if (currentSrc !== lockedImage) {
-          mainImage.setAttribute('src', lockedImage);
+      // ✅ Click handler for desktop (with touch protection)
+      thumb.addEventListener('click', (e) => {
+        // Prevent click on mobile if touch was handled
+        if (isTouchDevice && touchStarted) {
+          return;
         }
-      });
-  
-      // ✅ Lock selected thumbnail on click
-      thumb.addEventListener('click', () => {
+        
         lockedImage = imageSrc;
         mainImage.setAttribute('src', lockedImage);
-  
+
         thumbnails.forEach(img => img.classList.remove('active'));
         thumb.classList.add('active');
       });
@@ -36,9 +77,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (thumb.getAttribute('data-image') === lockedImage) {
         thumb.classList.add('active');
       }
-    });
-
-    // ✅ Zoom functionality
+    });    // ✅ Zoom functionality with mobile optimization
     function createZoomModal() {
       const modal = document.createElement('div');
       modal.className = 'pd-zoom-modal';
@@ -74,14 +113,45 @@ document.addEventListener("DOMContentLoaded", () => {
       document.body.style.overflow = 'auto';
     }
 
-    // Event listeners for zoom
-    mainImage.addEventListener('click', openZoom);
-    if (zoomBadge) {
-      zoomBadge.addEventListener('click', openZoom);
+    // ✅ Mobile-optimized zoom event listeners
+    if (isTouchDevice) {
+      // Touch events for mobile zoom
+      mainImage.addEventListener('touchend', (e) => {
+        e.preventDefault();
+        openZoom();
+      });
+      
+      if (zoomBadge) {
+        zoomBadge.addEventListener('touchend', (e) => {
+          e.preventDefault();
+          openZoom();
+        });
+      }
+    } else {
+      // Click events for desktop zoom
+      mainImage.addEventListener('click', openZoom);
+      if (zoomBadge) {
+        zoomBadge.addEventListener('click', openZoom);
+      }
     }
+    
+    // Close button works for both desktop and mobile
     zoomClose.addEventListener('click', closeZoom);
+    zoomClose.addEventListener('touchend', (e) => {
+      e.preventDefault();
+      closeZoom();
+    });
+    
+    // Overlay close with touch support
     zoomOverlay.addEventListener('click', (e) => {
       if (e.target === zoomOverlay) {
+        closeZoom();
+      }
+    });
+    
+    zoomOverlay.addEventListener('touchend', (e) => {
+      if (e.target === zoomOverlay) {
+        e.preventDefault();
         closeZoom();
       }
     });
