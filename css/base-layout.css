@@ -91,7 +91,7 @@ main .container {
         height: 20px;
     }
 
-    /* Mobile Menu Container */
+    /* Mobile Menu Container
     .navbar-collapse {
         background: rgba(193, 18, 31, 0.98);
         margin: 0.5rem -1rem -0.5rem -1rem;
@@ -100,7 +100,7 @@ main .container {
         box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
         backdrop-filter: blur(15px);
         border-top: 1px solid rgba(255, 255, 255, 0.1);
-    }
+    } */
 
     /* Mobile Navigation Items */
     .navbar-nav {
